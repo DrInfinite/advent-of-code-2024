@@ -14,8 +14,10 @@ export function solvePartOne(input: string): string {
                 ?.map(Number)
                 .reduce((acc, curr) => (acc *= curr)),
           )
+          .filter((value) => value !== undefined)
           .reduce((acc, curr) => (acc += curr)),
     )
+    .filter((value) => value !== undefined)
     .reduce((acc, curr) => (acc += curr))
     ?.toString() as string;
 }
@@ -46,8 +48,10 @@ export function solvePartTwo(input: string): string {
                 ?.map(Number)
                 .reduce((acc, curr) => acc * curr),
           )
+          .filter((value) => value !== undefined)
           .reduce((acc, curr) => (acc += curr)),
     )
+    .filter((value) => value !== undefined)
     .reduce((acc, curr) => (acc += curr))
     ?.toString() as string;
 }
