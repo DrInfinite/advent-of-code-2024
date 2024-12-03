@@ -1,5 +1,27 @@
 # Advent of Code - 20XX - Typescript
 
+<!--toc:start-->
+
+- [Advent of Code - 20XX - Typescript](#advent-of-code-20xx-typescript)
+  - [Features](#features)
+  - [Quick Start](#quick-start)
+  - [Fetching Input (Optional)](#fetching-input-optional)
+  - [Expected Folder Structure](#expected-folder-structure)
+    - [`./src/day-x/solution.ts`](#srcday-xsolutionts)
+    - [`./src/day-x/input.txt`](#srcday-xinputtxt)
+    - [`./src/day-x/input-sample-part-1.txt`](#srcday-xinput-sample-part-1txt)
+    - [`./src/day-x/input-sample-part-2.txt`](#srcday-xinput-sample-part-2txt)
+  - [Commands](#commands)
+    - [Solve Mode](#solve-mode)
+    - [Watch Mode](#watch-mode)
+    - [Test Flag](#test-flag)
+    - [Bootstrap Files for a Day](#bootstrap-files-for-a-day)
+    - [Typecheck](#typecheck)
+    - [Lint](#lint)
+    - [Format](#format)
+  - [Contributing](#contributing) - [Commit Messages](#commit-messages)
+  <!--toc:end-->
+
 This repository sets up everything you need to start solving the Advent of Code puzzles in Typescript.
 
 ## Features
